@@ -1,0 +1,28 @@
+.normal {
+    width: 100%;
+    padding: 88px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.normal>p:nth-of-type(odd) {
+    border-bottom: 3px solid var(--primary-color);
+    padding-bottom: 5px;
+    margin-bottom: 24px;
+    color: var(--primary-color);
+}
+
+.normal>p:nth-of-type(even) {
+    max-width: 40ch;
+    margin-bottom: 64px;
+}
+
+.normal>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 32px;
+}

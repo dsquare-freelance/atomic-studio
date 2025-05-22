@@ -1,0 +1,20 @@
+.base {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.base>p {
+    text-align: center;
+    max-width: 12ch;
+}
+
+.base>p:nth-of-type(odd) {
+    font-size: var(--heading);
+}
+
+.primary {
+    composes: base;
+    color: var(--primary-color);
+}

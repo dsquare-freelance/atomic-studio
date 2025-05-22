@@ -1,0 +1,8 @@
+.normal {
+    width: 100%;
+    background-color: var(--primary-color);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

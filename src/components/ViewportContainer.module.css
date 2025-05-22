@@ -1,0 +1,19 @@
+.base {
+    width: 100vw;
+    height: 100vh;
+}
+
+.primary {
+    composes: base;
+    background-color: var(--primary-color);
+}
+
+.white {
+    composes: base;
+    background-color: var(--white-tone);
+}
+
+.image {
+    composes: base;
+    background: no-repeat center center fixed;
+}

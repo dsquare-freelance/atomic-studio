@@ -1,5 +1,7 @@
+import Landing from "@pages/Landing.jsx";
+
 function App() {
-  return <h1>Hello World!</h1>;
+    return <Landing />;
 }
 
 export default App;

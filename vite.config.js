@@ -12,8 +12,18 @@ export default defineConfig({
     alias: {
       "@assets": "/src/assets",
       "@components": "/src/components",
+      "@fragments": "/src/components/fragments",
       "@pages": "/src/pages",
-      "@styles": "/src/styles",
+      "@globalStyles": "/src/globalStyles",
     },
+  },
+  css: {
+    transformer: "lightningcss",
+    lightningcss: {
+      cssModules: true,
+    },
+  },
+  build: {
+    cssMinify: "lightningcss",
   },
 });

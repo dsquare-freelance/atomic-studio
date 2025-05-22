@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Raleway Thin";
+    src:
+        local("Raleway Thin"), url("@assets/fonts/Raleway-VariableFont_wght.ttf");
+}
+
+body {
+    font-family: "Raleway Thin", sans-serif;
+}
+
+:root {
+    --primary-color: #f02424;
+    --white-tone: #ffffff;
+    --black-tone: #000000;
+    --body-copy: 1rem;
+    --label: 0.875rem;
+    --subheading: 1.618rem;
+    --heading: 2.618rem;
+    --massive-heading: 6.854rem;
+    --small-box-shadow: 4px 4px 24px -16px black;
+    --small-text-shadow: 2px 2px 24px var(--black-tone);
+}

@@ -1,0 +1,17 @@
+.logo img {
+    width: 80px;
+    height: 80px;
+    margin: 32px;
+    box-shadow: var(--small-box-shadow);
+    border-radius: 50%;
+    background-clip: content-box;
+}
+
+.bigLogo img {
+    width: 100%;
+}
+
+.viewport img {
+    width: 100vw;
+    height: 100vh;
+}

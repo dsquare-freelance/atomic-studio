@@ -1,0 +1,17 @@
+.normal {
+    height: 100%;
+    display: flex;
+    margin-bottom: 32px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: var(--primary-color);
+}
+
+.normal>p {
+    margin-bottom: 16px;
+}
+
+.normal>button {
+    margin-bottom: 80px;
+}
