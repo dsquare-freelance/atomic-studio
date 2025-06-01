@@ -2,20 +2,98 @@
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-.normal>div {
+.primaryContainer {
     width: 80%;
     height: 80%;
     background-color: var(--primary-color);
     border-radius: 40px;
+    display: flex;
+    flex-direction: column;
 }
 
 .normal p {
-    margin-top: 40px;
+    padding-left: 40px;
+    margin-top: 48px;
     font-size: var(--heading);
-    text-align: center;
+    text-align: left;
     color: var(--white-tone);
+}
+
+.servicesContainer {
+    height: 200px;
+    width: 404px;
+    position: relative;
+    margin: auto 32px 24px 0px;
+    align-self: flex-end;
+    transform: scale(1.5);
+    transform-origin: bottom right;
+}
+
+.baseService {
+    opacity: 0;
+    position: absolute;
+}
+
+.serviceAnimation {
+    animation: var(--spring-duration) service var(--spring-easing) forwards;
+}
+
+@keyframes service {
+    0% {
+        transform: translateY(-250px);
+    }
+
+    1% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.webDesign {
+    composes: baseService;
+    bottom: 0;
+    right: 144px;
+}
+
+.fotografia {
+    composes: baseService;
+    bottom: 0;
+    right: 0;
+    animation-delay: 0.5s;
+}
+
+.stickers {
+    composes: baseService;
+    bottom: 56px;
+    right: 248px;
+    animation-delay: 0.25s;
+}
+
+.redesSociales {
+    composes: baseService;
+    bottom: 60px;
+    right: 88px;
+    animation-delay: 0.75s;
+}
+
+.merch {
+    composes: baseService;
+    bottom: 108px;
+    right: 192px;
+    animation-delay: 0.25s;
+}
+
+.branding {
+    composes: baseService;
+    bottom: 156px;
+    right: 88px;
+    animation-delay: 0s;
 }

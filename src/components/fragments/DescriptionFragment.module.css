@@ -1,4 +1,6 @@
 .normal {
+    background-color: var(--white-tone);
+    font-size: var(--body-copy);
     text-align: center;
     padding: 80px;
     color: var(--black-tone);

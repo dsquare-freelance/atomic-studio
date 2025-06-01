@@ -1,17 +1,60 @@
 .logo img {
     width: 80px;
     height: 80px;
-    margin: 32px;
     box-shadow: var(--small-box-shadow);
     border-radius: 50%;
     background-clip: content-box;
 }
 
-.bigLogo img {
-    width: 100%;
+.portafolio img {
+    border-radius: 24px;
+    width: 420px;
+    height: 280px;
+    object-fit: fill;
+    box-shadow: 4px 4px 24px -16px black;
 }
+
+.innerPortafolio img {
+    border-radius: 16px;
+    width: 360px;
+    height: 240px;
+    object-fit: cover;
+    box-shadow: 4px 4px 24px -16px black;
+}
+
+.bigLogo img {}
 
 .viewport img {
     width: 100vw;
     height: 100vh;
+}
+
+.webDesign img {
+    height: 64px;
+    object-fit: contain;
+}
+
+.fotografia img {
+    height: 96px;
+    object-fit: contain;
+}
+
+.stickers img {
+    height: 56px;
+    object-fit: contain;
+}
+
+.redesSociales img {
+    height: 96px;
+    object-fit: contain;
+}
+
+.merch img {
+    height: 48px;
+    object-fit: contain;
+}
+
+.branding img {
+    height: 40px;
+    object-fit: contain;
 }

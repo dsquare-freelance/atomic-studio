@@ -1,4 +1,5 @@
 .normal {
+    font-size: var(--body-copy);
     height: 100%;
     display: flex;
     margin-bottom: 32px;

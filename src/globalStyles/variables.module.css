@@ -12,11 +12,40 @@ body {
     --primary-color: #f02424;
     --white-tone: #ffffff;
     --black-tone: #000000;
-    --body-copy: 1rem;
-    --label: 0.875rem;
-    --subheading: 1.618rem;
-    --heading: 2.618rem;
-    --massive-heading: 6.854rem;
+    --label: 1rem;
+    --body-copy: 1.618rem;
+    --subheading: 2.618rem;
+    --heading: 6.854rem;
     --small-box-shadow: 4px 4px 24px -16px black;
     --small-text-shadow: 2px 2px 24px var(--black-tone);
+
+    --spring-easing: linear(0,
+            0.01,
+            0.041 1.5%,
+            0.165 3.2%,
+            0.833 9%,
+            1.065,
+            1.21 13.8%,
+            1.251,
+            1.273 16.2%,
+            1.277,
+            1.275 17.8%,
+            1.252 19.4%,
+            1.205 21.2%,
+            1.057 25.7%,
+            0.993 28%,
+            0.946 30.6%,
+            0.932,
+            0.925 33.2%,
+            0.924,
+            0.93 36.5%,
+            1.001 45%,
+            1.014,
+            1.021 50.1%,
+            1.019 53.6%,
+            1 62%,
+            0.994 66.8%,
+            1.001,
+            1);
+    --spring-duration: 1.5s;
 }

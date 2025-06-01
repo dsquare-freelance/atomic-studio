@@ -1,10 +1,10 @@
 .base {
-    --small-box-shadow: 4px 4px 24px -16px black;
     padding: 16px;
     border-radius: 32px;
     border: none;
     transition: all 0.5s;
     box-shadow: var(--small-box-shadow);
+    font-size: var(--body-copy);
 }
 
 .base:hover {
@@ -16,6 +16,12 @@
     composes: base;
     background-color: var(--white-tone);
     color: var(--primary-color);
+}
+
+.normalPrimary {
+    composes: base;
+    background-color: var(--primary-color);
+    color: var(--white-tone);
 }
 
 .outlineWhite {

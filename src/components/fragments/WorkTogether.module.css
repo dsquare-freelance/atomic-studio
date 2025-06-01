@@ -1,0 +1,30 @@
+.normal {
+    width: 100vw;
+    height: 60vh;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title {
+    border-top: 3px solid var(--white-tone);
+    padding-top: 24px;
+    color: var(--white-tone);
+    font-size: 128px;
+}
+
+.footer {
+    font-size: var(--body-copy);
+    padding: 0 64px;
+    width: 100%;
+    color: var(--white-tone);
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.footer p:nth-child(4) {
+    margin-left: auto;
+}
